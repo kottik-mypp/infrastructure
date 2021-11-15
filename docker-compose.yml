@@ -13,6 +13,7 @@ services:
       TZ: Europe/Moscow 
     depends_on:
       - php-fpm
+      - mysql
 
   php-fpm: 
     image: "php:7.4-fpm-mysql"
